@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Eneritz Burgoa — Diseño Gráfico &amp; Front-End</title>
+  <meta name="description" content="Portfolio editorial de Eneritz Burgoa, diseñadora gráfica y desarrolladora front-end en Bilbao. Identidad visual, tipografía, packaging y desarrollo web.">
+  <meta name="author" content="Eneritz Burgoa">
+  <meta name="theme-color" content="#1E18A0">
+  <link rel="canonical" href="https://eneritz.design/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Eneritz Burgoa — Diseño Gráfico &amp; Front-End">
+  <meta property="og:description" content="Diseño que se vuelve código. Identidad visual, tipografía y desarrollo front-end desde Bilbao.">
+  <meta property="og:image" content="./img/logo-mark.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="./img/logo-mark.png" type="image/png">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Eneritz Burgoa",
+    "jobTitle": "Diseñadora gráfica y desarrolladora front-end",
+    "address": { "@type": "PostalAddress", "addressLocality": "Bilbao", "addressCountry": "ES" },
+    "sameAs": [
+      "https://www.behance.net/eneritz",
+      "https://www.instagram.com/eneritz.design/",
+      "https://www.linkedin.com/in/eneritzb"
+    ]
+  }
+  </script>
+
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+  <div class="cursor-dot" data-cursor aria-hidden="true"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" data-preloader aria-hidden="false">
+    <p class="preloader__name">Eneritz Burgoa</p>
+    <p class="preloader__pct" data-preloader-pct>0%</p>
+  </div>
+
+  <!-- Cabecera -->
+  <header class="site-header">
+    <a class="site-header__logo" href="#main">
+      <img class="site-header__mark" src="./img/logo-mark.png" alt="" aria-hidden="true" width="26" height="26">
+      <span>Eneritz Burgoa</span>
+    </a>
+
+    <!-- <span class="site-header__clock" data-clock>Bilbao — --:--</span> -->
+
+    <button class="nav-toggle" type="button" data-nav-toggle data-magnetic
+            aria-expanded="false" aria-controls="navPanel" aria-label="Abrir menú">
+      <span class="nav-toggle__line"></span>
+      <span class="nav-toggle__line"></span>
+    </button>
+  </header>
+
+  <!-- Navegación -->
+  <nav class="nav-panel" id="navPanel" data-nav-panel aria-label="Navegación principal">
+    <a class="nav-panel__link" href="#trabajo" data-magnetic>Proyectos</a>
+    <!-- <a class="nav-panel__link" href="#proceso" data-magnetic>Proceso</a> -->
+    <a class="nav-panel__link" href="#sobre-mi" data-magnetic>Sobre mí</a>
+    <a class="nav-panel__link" href="#contacto" data-magnetic>Contacto</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- ================= Hero ================= -->
+    <section class="section section--blue hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero__shape" data-hero-shape aria-hidden="true"></div>
+
+      <div class="section__inner hero__content">
+        <h1 class="hero__title" id="hero-heading">
+          <span>Diseño</span>
+          <span>que se vuelve</span>
+        </h1>
+
+        <p class="hero__display" aria-hidden="true">
+          <span data-cycle-word>código</span><span class="hero__display-dot">.</span>
+        </p>
+        <p class="u-sr-only">Diseño que se vuelve código, marca, tipo y color.</p>
+
+        <div class="hero__footer">
+          <p class="hero__bio">Eneritz Burgoa — diseñadora gráfica y desarrolladora front-end.</p>
+
+          <div class="hero__actions">
+            <span class="status">
+              <span class="status__dot" aria-hidden="true"></span>
+              Disponible para nuevos proyectos
+            </span>
+            <a class="hero__cta" href="#trabajo" data-magnetic>
+              Ver trabajo <span class="hero__cta-arrow" aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Marquesina ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__item marquee__item--serif">Diseño Gráfico</span><span class="marquee__sep">—</span>
+        <span class="marquee__item">Tipografía</span><span class="marquee__sep">—</span>
+        <span class="marquee__item marquee__item--serif">Branding</span><span class="marquee__sep">—</span>
+        <span class="marquee__item">Packaging</span><span class="marquee__sep">—</span>
+        <span class="marquee__item marquee__item--serif">Front-End</span><span class="marquee__sep">—</span>
+        <span class="marquee__item">Bilbao</span><span class="marquee__sep">—</span>
+        <span class="marquee__item marquee__item--serif">Diseño Gráfico</span><span class="marquee__sep">—</span>
+        <span class="marquee__item">Tipografía</span><span class="marquee__sep">—</span>
+        <span class="marquee__item marquee__item--serif">Branding</span><span class="marquee__sep">—</span>
+        <span class="marquee__item">Packaging</span><span class="marquee__sep">—</span>
+        <span class="marquee__item marquee__item--serif">Front-End</span><span class="marquee__sep">—</span>
+        <span class="marquee__item">Bilbao</span><span class="marquee__sep">—</span>
+      </div>
+    </div>
+
+    <!-- ================= Sobre mí ================= -->
+    <section class="section section--red about" id="sobre-mi" aria-labelledby="about-heading">
+      <div class="section__inner">
+        <!-- <p class="section-label" id="about-heading">/ 01 — Sobre mí</p> -->
+
+        <blockquote class="about__quote reveal">
+          Empiezo cada proyecto con un lápiz<br>y lo termino con un teclado.
+        </blockquote>
+
+        <div class="about__grid">
+          <p class="about__text reveal">
+            Trabajo en la frontera entre el diseño y el desarrollo: dibujo sistemas visuales
+            para marcas — desde qué color debe predominar hasta la web corporativa, línea a línea.
+            Desde Bilbao, colaboro con marcas y estudios que necesitan una identidad tan cuidada en
+            pantalla como en papel.
+          </p>
+
+          <div class="about__skills">
+            <div class="skill-list reveal">
+              <h2 class="skill-list__title"><span class="skill-list__plus" aria-hidden="true">+</span>Diseño</h2>
+              <ul>
+                <li class="skill-list__item">Identidad visual</li>
+                <li class="skill-list__item">Tipografía</li>
+                <li class="skill-list__item">Packaging</li>
+                <li class="skill-list__item">Editorial</li>
+                <li class="skill-list__item">Ilustración</li>
+              </ul>
+            </div>
+
+            <div class="skill-list reveal">
+              <h2 class="skill-list__title"><span class="skill-list__plus" aria-hidden="true">+</span>Desarrollo</h2>
+              <ul>
+                <li class="skill-list__item">HTML5 &amp; CSS3</li>
+                <li class="skill-list__item">JavaScript, React...</li>
+                <li class="skill-list__item">Diseño responsive</li>
+                <li class="skill-list__item">Git</li>
+                <li class="skill-list__item">De Figma a código</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Proceso =================
+    <section class="section section--white process" id="proceso" aria-labelledby="process-heading">
+      <div class="section__inner">
+        <!-- <p class="section-label" id="process-heading">/ 02 — Proceso</p> 
+
+        <ol class="process__list">
+          <li class="process__step reveal">
+            <span class="process__ghost" aria-hidden="true">01</span>
+            <span class="process__index">01</span>
+            <div class="process__body">
+              <span class="process__name">Investigar</span>
+              <span class="process__desc">Entender la marca, el contexto y a quién habla.</span>
+            </div>
+          </li>
+          <li class="process__step reveal">
+            <span class="process__ghost" aria-hidden="true">02</span>
+            <span class="process__index">02</span>
+            <div class="process__body">
+              <span class="process__name">Diseñar</span>
+              <span class="process__desc">Bocetos y sistema visual.</span>
+            </div>
+          </li>
+          <li class="process__step reveal">
+            <span class="process__ghost" aria-hidden="true">03</span>
+            <span class="process__index">03</span>
+            <div class="process__body">
+              <span class="process__name">Prototipar</span>
+              <span class="process__desc">De Figma a interacciones reales.</span>
+            </div>
+          </li>
+          <li class="process__step reveal">
+            <span class="process__ghost" aria-hidden="true">04</span>
+            <span class="process__index">04</span>
+            <div class="process__body">
+              <span class="process__name">Construir</span>
+              <span class="process__desc">La identidad de la marca incluida la web (HTML, CSS y JavaScript).</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section> -->
+
+    <!-- ================= Trabajo ================= -->
+    <section class="section section--blue work" id="trabajo" aria-labelledby="work-heading">
+      <div class="section__inner">
+        <!-- <p class="section-label">/ 03 — Trabajo seleccionado</p> -->
+        <h2 class="work__title reveal" id="work-heading">Proyectos</h2>
+        <p class="work__meta reveal">
+          <span data-counter="1169">0</span> visitas de proyecto ·
+          <span data-counter="44">0</span> valoraciones · en Behance desde 2016
+        </p>
+
+        <div class="work__grid">
+
+          <a class="project reveal" href="https://www.behance.net/gallery/201512379/mamu" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/78930a201512379.Y3JvcCw1NDA1LDQyMjcsMCw1MjE.png"
+                   alt="Proyecto mamu, identidad visual" loading="lazy" referrerpolicy="no-referrer" data-initial="M">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Identidad</span>
+              <span class="project__name">mamu</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/90320407/ure" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/ca97c190320407.Y3JvcCw0MzQ2LDM0MDAsNDA4LDA.jpg"
+                   alt="Proyecto ure., identidad visual" loading="lazy" referrerpolicy="no-referrer" data-initial="U">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Identidad</span>
+              <span class="project__name">ure.</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/89583503/Cactus" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/f962c389583503.Y3JvcCwxNDAwLDEwOTUsMCw2.jpg"
+                   alt="Proyecto Cactus, ilustración" loading="lazy" referrerpolicy="no-referrer" data-initial="C">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Diseño web</span>
+              <span class="project__name">Cactus</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/62305329/Propuesta-para-el-rediseno-de-la-botella-de-Uixar" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/1be2c362305329.Y3JvcCwzMzMyLDI2MDgsODIsMA.jpg"
+                   alt="Rediseño de la botella de Uixar, packaging" loading="lazy" referrerpolicy="no-referrer" data-initial="U">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Packaging</span>
+              <span class="project__name">Uixar</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/67787691/El-iceberg-del-vaso" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/d4112867787691.6530c6fa70917.png"
+                   alt="El iceberg del vaso, proyecto editorial" loading="lazy" referrerpolicy="no-referrer" data-initial="I">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Ilustración</span>
+              <span class="project__name">El iceberg del vaso</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/71904669/%28Rediseno%29-Festival-Internacional-de-Jazz-en-Madrid" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/78bd8c71904669.Y3JvcCwxMjE3LDk1Miw0OCw2MA.jpg"
+                   alt="Rediseño del Festival Internacional de Jazz en Madrid, cartelería" loading="lazy" referrerpolicy="no-referrer" data-initial="J">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Editorial</span>
+              <span class="project__name">Jazz Madrid</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/84981883/Candy-tipography" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img project__img--crop-top"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/dc525e84981883.Y3JvcCwxODUwLDE0NDcsMjcsODQwNQ.png"
+                   alt="Candy tipografía, proyecto de tipografía" loading="lazy" referrerpolicy="no-referrer" data-initial="C">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Tipografía</span>
+              <span class="project__name">Candy tipografía</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://www.behance.net/gallery/76867511/Words-vol-1" target="_blank" rel="noopener">
+            <div class="project__media">
+              <img class="project__img"
+                   src="https://mir-s3-cdn-cf.behance.net/projects/404/da621e76867511.Y3JvcCwxNDAwLDEwOTUsMCwxNTI.jpg"
+                   alt="Words vol. 1, proyecto de tipografía" loading="lazy" referrerpolicy="no-referrer" data-initial="W">
+            </div>
+            <span class="project__follow" aria-hidden="true">Ver proyecto ↗</span>
+            <div class="project__foot">
+              <span class="project__tag">Ilustración</span>
+              <span class="project__name">Words vol. 1</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+        </div>
+
+        <a class="link-underline work__all reveal" href="https://www.behance.net/eneritz" target="_blank" rel="noopener" data-magnetic>
+          Ver todo en Behance <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= Contacto ================= -->
+    <section class="section section--yellow contact" id="contacto" aria-labelledby="contact-heading">
+      <div class="section__inner">
+        <!-- <p class="section-label">/ 04 — Contacto</p> -->
+        <h2 class="contact__title reveal" id="contact-heading">¿Creamos algo juntos?</h2>
+
+        <div class="contact__social reveal">
+          <a class="contact__link" href="https://www.behance.net/eneritz" target="_blank" rel="noopener" data-magnetic>
+            Behance <span aria-hidden="true">↗</span>
+          </a>
+          <a class="contact__link" href="https://www.instagram.com/eneritz.design/" target="_blank" rel="noopener" data-magnetic>
+            Instagram <span aria-hidden="true">↗</span>
+          </a>
+          <a class="contact__link" href="https://www.linkedin.com/in/eneritzb" target="_blank" rel="noopener" data-magnetic>
+            LinkedIn <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Eneritz Burgoa</span>
+    <!-- <span data-clock>Bilbao — --:--</span> -->
+    <a class="site-footer__top" href="#main">Arriba ↑</a>
+  </footer>
+
+</body>
+</html>
